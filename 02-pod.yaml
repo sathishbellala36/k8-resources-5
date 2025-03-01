@@ -3,7 +3,7 @@ kind: pod
 metadata:
   name: nginx
 spec:
- containers:
+  containers:
  # docker run -d --name nginx nginx
- - name: nginx
-   image: nginx
+  - name: nginx
+    image: nginx
